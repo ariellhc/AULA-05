@@ -3,6 +3,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: 'Arial', sans-serif;
 }
 
 body {
@@ -20,7 +21,7 @@ main {
     background: #fff;
     padding: 40px;
     border-radius: 10px;
-    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+    box-shadow: 20px 10px 30px rgba(0, 0, 0, 0.1);
     max-width: 600px;
     width: 100%;
 }
@@ -45,7 +46,7 @@ label.block {
 }
 
 div.form-group {
-    margin-bottom: 20px;
+    margin-bottom: 10px;
     display: flex;
     flex-direction: column;
 }
