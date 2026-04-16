@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Aula 05</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <main>
+        <h1>Cadastro de Desenvolvedor</h1>
+        <form>
+        <div class="form-group">
+            <div>
+            <label class="block" for="nome">Nome Completo</label>
+            <input type="text" id="nome" name="nome" placeholder="Digite seu nome">
+            </div>
+
+            <div>
+            <label class="block" for="email">Email</label>
+            <input type="email" id="email" name="email" placeholder="Digite seu email">
+            </div>
+
+            <div>
+            <label class="block" for="senha">Senha</label>
+            <input type="password" id="senha" name="senha" placeholder="Digite sua senha">
+            </div>
+
+            <div>
+            <label class="block" for="nasc">Data de Nascimento</label>
+            <input type="date" id="nasc" name="nasc">
+            </div>
+            
+            <div>
+            <legend>Gênero</legend>
+            <select id="genero" name="genero" placeholder="Selecione...">
+                <option value="">Selecione...</option>
+                <option value="masculino">Masculino</option>
+                <option value="feminino">Feminino</option>
+                <option value="outro">Outro</option>
+            </select>
+            </div>
+
+            <div>
+            <legend>Stacks</legend>
+
+            <input type="checkbox" id="html" name="html" placeholder="HTML">
+            <label for="html">HTML</label>
+        
+            <input type="checkbox" id="css" name="css" placeholder="CSS">
+            <label for="css">CSS</label>
+
+            <input type="checkbox" id="js" name="js" placeholder="JavaScript">
+            <label for="js">JavaScript</label>
+            </div>
+
+            <div>
+            <legend>Possui Experiência</legend>
+            <input type="radio" id="sim" name="experiencia" value="sim">
+            <label for="sim">Sim</label>
+
+            <input type="radio" id="nao" name="experiencia" value="nao">
+            <label for="nao">Não</label>
+
+            <legend>Se sim descreva sua experiência</legend>
+            <textarea id="descxp" name="descxp" cols="30" rows="5" placeholder="Descreva sua experiência"></textarea>
+            </div>
+
+        </div>
+        <button type="submit">Cadastrar</button>
+        </form>
+        <p>Já possui cadastro? <a href="login.html">Faça login</a></p>
+
+</body>
+</html>
